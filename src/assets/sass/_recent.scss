@@ -1,0 +1,123 @@
+&__recent {
+    background-color: $maincolor;
+    padding: 20px;
+    border-radius: 15px;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+
+        &--heading {
+            font-size: 2em;
+            color: $textcolor;
+            margin-bottom: 8px;
+        }
+
+        &--text {
+            font-size: 1.4em;
+            color: $textcoloropct;
+            margin-bottom: 0;
+        }
+
+        select {
+            padding: 6px 36px 6px 12px;
+            background-color: $maincolor;
+            line-height: 1.5;
+            font-weight: 500;
+            color: $textcolor;
+            font-size: 1.3em;
+            border: 1px solid #475059;
+            width: 144px;
+            background-image: url('../img/chevron_down.svg');
+            background-size: 2em;
+        }
+    }
+
+    &__total {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        background-color: rgb(48, 58, 69);
+        margin: 12px -16px 0;
+        color: $textcolor;
+
+        &--heading {
+            font-size: 2.4em;
+            margin-bottom: 8px;
+        }
+
+        &--text {
+            font-size: 1.4em;
+            margin-bottom: 8px;
+        }
+
+        &--span {
+            font-size: 3em;
+            color: $blue;
+        }
+    }
+
+    &__table {
+        margin-top: 16px;
+
+        thead {
+            border-bottom: 1px solid $bgcolor2;
+            tr {
+                th {
+                    padding: 12px;
+                    font-size: 1.4em;
+                    color: #ffffffe6;
+                    background-color: transparent;
+                }
+            }
+        }
+        
+        tbody {
+            border-bottom: 1px solid $bgcolor2;
+            tr {
+                td {
+                    padding: 12px 12px 24px;
+                    font-size: 1.4em;
+                    color: #ffffffe6;
+                    background-color: transparent;
+                }
+            }
+        }
+
+        .status-sale {
+            background-color: $green;
+            padding: 3.675px 7.35px;
+            font-size: .75em;
+            border-radius: 8px;
+            font-weight: 300;
+        }
+        
+        .status-extended {
+            background-color: $blue;
+            padding: 3.675px 7.35px;
+            font-size: .75em;
+            border-radius: 8px;
+            font-weight: 300;
+        }
+        
+        .status-tax {
+            background-color: $red;
+            padding: 3.675px 7.35px;
+            font-size: .75em;
+            border-radius: 8px;
+            font-weight: 300;
+        }
+        
+        .status-member {
+            background-color: $warning;
+            padding: 3.675px 7.35px;
+            font-size: .75em;
+            border-radius: 8px;
+            font-weight: 300;
+        }
+    }
+}

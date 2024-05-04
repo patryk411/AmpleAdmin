@@ -1,0 +1,39 @@
+**,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables';
+@import './fonts';
+
+html {
+    font-size: 62.5%;
+    background-color: $bgcolor;
+    position: relative;
+}
+
+@import './nav';
+@import './aside';
+@import './monthlyraport';
+@import './modal';
+@import './dialog';
+@import './input';
+
+.main {
+    padding: 24px;
+    background-color: $bgcolor;
+    font-family: $ff;
+    
+    @import './dashboard';
+    @import './dailyInfo';
+    @import './chart';
+    @import './monthlyearnings';
+    @import './recent';
+    @import './recentcomments';
+    @import './todo';
+    @import './menageusers';
+    @import './projectlisting';
+}

@@ -1,0 +1,72 @@
+.navbar {
+    background-color: $maincolor;
+
+    .navbar-brand {
+        padding: 12px 0 12px 6px;
+        margin-right: 50px;
+        .navbar-brand-img {
+            margin-left: 10px;
+        }
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 6px 12px 0px;
+        
+        .nav-link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 12px;
+            padding: 6px 12px;
+            font-size: 2em;
+            transition: background-color .3s;
+            
+                .header-img {
+                    color: #fff;
+                }
+
+
+                &:hover {
+                    background-color: rgba(10, 17, 24, .5);
+                }
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .form-control {
+                padding: 6px 12px;
+                margin: 4px 8px 4px 0;
+                background-color: $maincolor;
+                width: 190px;
+                height: 35px;
+                border-radius: 50rem;
+                color: #fff;
+                border: 1px solid #fff;
+                font-family: $ff;
+                font-size: 1.3em;
+                
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+
+            .user-img-btn {
+                padding: 6px 12px;
+                .user-img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+&__chart {
+    background-color: $maincolor;
+    padding: 24px;
+    font-family: $ff;
+    border-radius: 1rem;
+
+    &--heading {
+        font-size: 2em;
+        color: $textcolor;
+        margin-bottom: 8px;
+    }
+
+    &--text {
+        color: $textcoloropct;
+        font-size: 1.4em;
+    }
+}

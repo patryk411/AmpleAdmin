@@ -1,0 +1,23 @@
+&__dashboard {
+    &--heading {
+        color: $textcolor;
+        font-size: 2em;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+    }
+
+    &--text {
+        font-size: 1.4em;
+        color: $textcolor;
+        margin-bottom: 16px;
+        
+    }
+
+    &--separator {
+        margin: 0 8px;
+    }
+
+    &--span {
+        color: $blue;
+    }
+}

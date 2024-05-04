@@ -1,0 +1,93 @@
+[
+    {
+      "img": "/src/assets/img/user.jpg",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "projectName": "Project X",
+      "projectTime": "25",
+      "projectBudget": "10k",
+      "projectStatus": "bad"
+    },
+    {
+      "img": "/src/assets/img/user2.jpg",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "projectName": "Project Y",
+      "projectTime": "30",
+      "projectBudget": "15k",
+      "projectStatus": "good"
+    },
+    {
+      "img": "/src/assets/img/user3.jpg",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "projectName": "Project Z",
+      "projectTime": "20",
+      "projectBudget": "12k",
+      "projectStatus": "bad"
+    },
+    {
+      "img": "/src/assets/img/user4.jpg",
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "projectName": "Project A",
+      "projectTime": "40",
+      "projectBudget": "20k",
+      "projectStatus": "warning"
+    },
+    {
+      "img": "/src/assets/img/user5.jpg",
+      "name": "Michael Wilson",
+      "email": "michael.wilson@example.com",
+      "projectName": "Project B",
+      "projectTime": "35",
+      "projectBudget": "18k",
+      "projectStatus": "bad"
+    },
+    {
+      "img": "/src/assets/img/user2.jpg",
+      "name": "Emma Taylor",
+      "email": "emma.taylor@example.com",
+      "projectName": "Project C",
+      "projectTime": "28",
+      "projectBudget": "14k",
+      "projectStatus": "warning"
+    },
+    {
+      "img": "/src/assets/img/user4.jpg",
+      "name": "Daniel Martinez",
+      "email": "daniel.martinez@example.com",
+      "projectName": "Project D",
+      "projectTime": "32",
+      "projectBudget": "16k",
+      "projectStatus": "bad"
+    },
+    {
+      "img": "/src/assets/img/user.jpg",
+      "name": "Olivia Garcia",
+      "email": "olivia.garcia@example.com",
+      "projectName": "Project E",
+      "projectTime": "22",
+      "projectBudget": "11k",
+      "projectStatus": "good"
+    },
+    {
+      "img": "/src/assets/img/user5.jpg",
+      "name": "Ethan Rodriguez",
+      "email": "ethan.rodriguez@example.com",
+      "projectName": "Project F",
+      "projectTime": "18",
+      "projectBudget": "9k",
+      "projectStatus": "good"
+    },
+    {
+      "img": "/src/assets/img/user3.jpg",
+      "name": "Sophia Hernandez",
+      "email": "sophia.hernandez@example.com",
+      "projectName": "Project G",
+      "projectTime": "27",
+      "projectBudget": "13k",
+      "projectStatus": "bad"
+    }
+  ]
+  

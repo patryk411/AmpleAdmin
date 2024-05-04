@@ -1,0 +1,59 @@
+&__daily {
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 30px;
+        gap: 15px;
+    }
+    
+    &__box {
+        background-color: $maincolor;
+        border-radius: 1rem;
+        padding: 16px;
+
+
+        &--heading {
+            font-size: 2em;
+            margin-bottom: 8px;
+            color: $textcolor;
+            font-weight: 600;
+        }
+    }
+
+    &__img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 16px;
+        border-top: 0px solid transparent;
+
+        &--img {
+            width: 80px;
+            height: 30px;
+            stroke: red;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2.4em;
+        color: $green;
+    }
+
+    &__text2 {
+        color: $purple;
+    }
+    
+    &__text3 {
+        color: $blue;
+    }
+
+    &__text4 {
+        color: $red;
+    }
+}

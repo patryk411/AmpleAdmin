@@ -1,0 +1,96 @@
+&__projectlisting {
+    padding: 20px;
+    background-color: $maincolor;
+    margin-top: 24px;
+    border-radius: 15px;
+
+    &--heading {
+        font-size: 1.8em;
+        color: $textcolor;
+        margin-bottom: 8px;
+    }
+
+    &--text {
+        font-size: 1.6em;
+        color: $textcoloropct;
+        margin-bottom: 8px;
+    }
+
+    table {
+        margin: 12px 0;
+        thead {
+            tr {
+                border-bottom: 1px solid #475059;
+                th {
+                    padding: 12px;
+                    background-color: $maincolor;
+                    font-size: 1.4em;
+                    color: rgba(255,255,255, .9);
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border-bottom: 1px solid #475059;
+                td {
+                    padding: 12px;
+                    background-color: $maincolor;
+                    color: rgba(255,255,255, .9);
+                    font-size: 1.4em;
+                    text-transform: capitalize;
+                    vertical-align: middle;
+        
+                }
+            }
+        }
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 8px;
+    }
+
+    &__content {
+        
+        &--img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+
+        &__td {
+            margin-left: 12px;
+            &--name {
+                color: rgba(255,255,255, .9);
+                font-size: 1.15em;
+                margin-bottom: 0;
+            }
+
+            &--email {
+                color: $textcoloropct;
+                margin-bottom: 0;
+            }
+
+            &--status {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $red;
+                margin-left: 16px;
+                padding: 8px;
+            }
+
+            &--status-warning {
+                background-color: $warning;
+            }
+
+            &--status-green {
+                background-color: $green;
+            }
+        }
+    }
+}
