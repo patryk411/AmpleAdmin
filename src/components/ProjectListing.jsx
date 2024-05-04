@@ -25,6 +25,7 @@ export default function ProjectListing() {
 							<th>Status</th>
 							<th>Weeks</th>
 							<th>Budget</th>
+							<th>Actions</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -52,6 +53,11 @@ export default function ProjectListing() {
 								</td>
 								<td>{project.projectTime}</td>
 								<td>{project.projectBudget}</td>
+								<td>
+									<button>
+										<span className='material-icons'>edit</span>
+									</button>
+								</td>
 							</tr>
 						))}
 					</tbody>
